@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compra de motos</title>
+  
+    <style>
+      #mototrilha {
+        width: 440px;
+      }
+      #mototrilhadiv {
+        text-align: center;
+      }
+      #cor {
+        background-color: gainsboro;
+        height: 600px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cor">
+      <div id="mototrilhadiv">
+        <img id="mototrilha" src="imagens/moto.jpg" alt="Moto de trilha" />
+        <h2>COMPRA DE MOTOS</h2>
+        <p>Escolha a moto que deseja comprar</p>
+        <form action="tela_de_cadastro.html">
+          <input type="radio" required name="moto" value="scooter"/> Scooter R$11.000 <br />
+          <input type="radio" required name="moto" value="trail"/> Trail R$17.000 <br />
+          <input type="radio" required name="moto" value="touring" /> Touring R$100.000 <br />
+          <button type="submit">Comprar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

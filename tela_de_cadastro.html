@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Cadastro</title>
+    
+    <style>
+      div{
+        text-align: center;
+
+      }
+    fieldset{
+    width: 10px; 
+   margin: 100px auto;
+   
+    }
+    img{
+      width: 400px;
+    }
+ section{
+  background-color: gainsboro;
+ margin: 10px;
+ }
+
+    </style>
+  </head>
+ 
+     <body>
+      <section>
+      <div>
+   <img src="imagens/pexels-pixabay-159192.jpg" alt="">
+    </div> 
+     <form action="tela_de_agradecimento.html">
+      <fieldset>
+        <legend>Cadastro para compra</legend>
+        <label for="nomecom">Nome:</label>
+        <input type="text" required id="nomecom" placeholder="Nome completo" />
+        <br />
+        <label for="mail">E-mail:</label>
+        <input type="email" required id="mail" placeholder="E-mail" /><br />
+        <label for="senha">Senha:</label>
+        <input type="password" required id="senha" placeholder="Senha" />
+        <label for="sexo"></label> <br />
+        <label for="contato">Celular:</label>
+        <input type="text" required id="contato" placeholder="Celular" /> <br />
+        <label for="sexo">Sexo:</label> <br />
+        <input type="radio" required id="sexo" name="genero" />Masculino <br />
+        <input type="radio" required id="sexo" name="genero" />Feminino <br />
+        <input type="radio" required id="sexo" name="genero" />Prefiro não
+        informar
+        <br />
+        <button type="submit">Enviar dados</button>
+      </fieldset>
+    </form>
+  </section>  
+  </body>
+
+  </html>
